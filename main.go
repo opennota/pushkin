@@ -196,7 +196,7 @@ func main() {
 
 	log.Println("listening on", *addr)
 	http.HandleFunc("/", index)
-	http.ListenAndServe(*addr, nil)
+	log.Fatal(http.ListenAndServe(*addr, nil))
 }
 
 var indexHTML = `
