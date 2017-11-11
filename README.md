@@ -9,5 +9,9 @@ Search poems and pieces by Alexander Sergeyevich Pushkin.
 
 ## Use
 
+Download a word2vec model from [http://rusvectores.org/ru/models/](http://rusvectores.org/ru/models/). E.g., ruscorpora. Extract it with gunzip.
+
+Then
+
     pushkin ruscorpora_1_300_10.bin pushkin.json-stream
 
