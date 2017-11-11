@@ -1,7 +1,7 @@
 pushkin [![GoDoc](http://godoc.org/github.com/opennota/pushkin?status.svg)](http://godoc.org/github.com/opennota/pushkin) [![Build Status](https://travis-ci.org/opennota/pushkin.png?branch=master)](https://travis-ci.org/opennota/pushkin)
 =======
 
-Search poems and pieces by Alexander Sergeyevich Pushkin.
+Search poems and pieces by Alexander Sergeyevich Pushkin with the help of [word2vec](https://en.wikipedia.org/wiki/Word2vec).
 
 ![Screencast](/screencast.gif)
 
@@ -11,7 +11,7 @@ Search poems and pieces by Alexander Sergeyevich Pushkin.
 
 ## Use
 
-Download a word2vec model from [http://rusvectores.org/ru/models/](http://rusvectores.org/ru/models/). E.g., ruscorpora. Extract it with gunzip.
+Download a word2vec model from [http://rusvectores.org/ru/models](http://rusvectores.org/ru/models/). E.g., ruscorpora. Extract it with gunzip.
 
 Then
 
