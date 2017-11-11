@@ -205,7 +205,7 @@ var indexHTML = `
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Векторизованный Пушкин</title>
+    <title>Pushkin</title>
     <style>
       #content { width: 70%; margin: auto; }
       #info { margin-top: 5px; }
