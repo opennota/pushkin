@@ -9,6 +9,8 @@ Search poems and pieces by Alexander Sergeyevich Pushkin with the help of [word2
 
     go get -u github.com/opennota/pushkin
 
+Or download a pre-built version from the [Releases](https://github.com/opennota/pushkin/releases) page.
+
 ## Use
 
 Download a word2vec model from [http://rusvectores.org/ru/models](http://rusvectores.org/ru/models/). E.g., ruscorpora. Extract it with gunzip.
