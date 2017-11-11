@@ -185,7 +185,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("couldn't load word2vec model: %v", err)
 	}
-	log.Printf("corpus loaded in %v\n", time.Since(start))
+	log.Printf("model loaded in %v\n", time.Since(start))
 
 	start = time.Now()
 	poems, err = loadPoems(flag.Arg(1), w2vModel)
