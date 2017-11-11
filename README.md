@@ -3,6 +3,8 @@ pushkin [![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gn
 
 Search poems and pieces by Alexander Sergeyevich Pushkin.
 
+![Screencast](/screencast.gif)
+
 ## Install
 
     go get -u github.com/opennota/pushkin
