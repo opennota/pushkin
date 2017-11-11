@@ -11,6 +11,8 @@
 // You should have received a copy of the GNU General Public License along
 // with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+// +build amd64,!noasm
+
 // func Dot300(a, b []float32) float32
 TEXT ·Dot300(SB), 0, $0-8
 	MOVQ a+0(FP), SI

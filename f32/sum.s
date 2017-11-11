@@ -11,6 +11,8 @@
 // You should have received a copy of the GNU General Public License along
 // with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+// +build amd64,!noasm
+
 // func Sum300(a, b []float32)
 TEXT ·Sum300(SB), 0, $0-8
 	MOVQ a+0(FP), SI

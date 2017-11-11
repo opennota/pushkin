@@ -11,6 +11,8 @@
 // You should have received a copy of the GNU General Public License along
 // with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+// +build amd64,!noasm
+
 #include "textflag.h"
 
 DATA ·ones+0(SB)/4, $0x3f800000
