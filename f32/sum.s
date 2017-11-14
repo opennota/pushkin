@@ -13,8 +13,8 @@
 
 // +build amd64,!noasm
 
-// func Sum300(a, b []float32)
-TEXT ·Sum300(SB), 0, $0-8
+// func sum300(a, b []float32)
+TEXT ·sum300(SB), 0, $0-8
 	MOVQ a+0(FP), SI
 	MOVQ b+24(FP), DI
 

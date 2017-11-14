@@ -22,8 +22,8 @@ DATA ·ones+12(SB)/4, $0x3f800000
 
 GLOBL ·ones+0(SB), RODATA, $16
 
-// func Norm300(v []float32)
-TEXT ·Norm300(SB), 0, $0-8
+// func norm300(v []float32)
+TEXT ·norm300(SB), 0, $0-8
 	MOVQ v+0(FP), SI
 
 	XORQ AX, AX

@@ -17,7 +17,7 @@ import "math"
 
 func Norm(v []float32) {
 	if len(v) == 300 {
-		Norm300(v)
+		norm300(v)
 		return
 	}
 	var d float32
@@ -35,7 +35,7 @@ func Sum(a, b []float32) {
 		panic("slice lengths must be equal!")
 	}
 	if len(a) == 300 {
-		Sum300(a, b)
+		sum300(a, b)
 		return
 	}
 	for i, x := range b {
@@ -48,7 +48,7 @@ func Dot(a, b []float32) float32 {
 		panic("slice lengths must be equal!")
 	}
 	if len(a) == 300 {
-		return Dot300(a, b)
+		return dot300(a, b)
 	}
 	var d float32
 	for i, x := range a {

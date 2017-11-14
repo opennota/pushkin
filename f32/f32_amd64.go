@@ -15,6 +15,6 @@
 
 package f32
 
-func Norm300(v []float32)
-func Sum300(a, b []float32)
-func Dot300(a, b []float32) float32
+func norm300(v []float32)
+func sum300(a, b []float32)
+func dot300(a, b []float32) float32

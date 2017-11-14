@@ -17,7 +17,7 @@ package f32
 
 import "math"
 
-func Norm300(v []float32) {
+func norm300(v []float32) {
 	var d float32
 	for _, x := range v {
 		d += x * x
@@ -28,13 +28,13 @@ func Norm300(v []float32) {
 	}
 }
 
-func Sum300(a, b []float32) {
+func sum300(a, b []float32) {
 	for i, x := range b {
 		a[i] += x
 	}
 }
 
-func Dot300(a, b []float32) float32 {
+func dot300(a, b []float32) float32 {
 	var d float32
 	for i, x := range a {
 		d += x * b[i]

@@ -13,8 +13,8 @@
 
 // +build amd64,!noasm
 
-// func Dot300(a, b []float32) float32
-TEXT ·Dot300(SB), 0, $0-8
+// func dot300(a, b []float32) float32
+TEXT ·dot300(SB), 0, $0-8
 	MOVQ a+0(FP), SI
 	MOVQ b+24(FP), DI
 
