@@ -77,6 +77,7 @@ func loadPoems(fn string, model *w2v.Model) ([]Poem, error) {
 	}
 	defer f.Close()
 
+	var poems []Poem
 	d := json.NewDecoder(f)
 	for {
 		var poem Poem
